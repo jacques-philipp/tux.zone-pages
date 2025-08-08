@@ -6,7 +6,13 @@
     <description>Recent content in WARNING - Here be Dragons! on Tux.Zone</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate></lastBuildDate>
     <atom:link href="https://tux.zone/dragons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dragon post 1</title>
+      <link>https://tux.zone/dragons/dragon1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tux.zone/dragons/dragon1/</guid>
+      <description>test</description>
+    </item>
   </channel>
 </rss>
