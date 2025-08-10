@@ -22,12 +22,5 @@
       <guid>https://tux.zone/dragons/dragon1/</guid>
       <description>test</description>
     </item>
-    <item>
-      <title>Projects</title>
-      <link>https://tux.zone/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tux.zone/projects/</guid>
-      <description>Things I’ve built, broken, fixed, or duct-taped together with Ansible and hope.</description>
-    </item>
   </channel>
 </rss>
