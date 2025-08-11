@@ -22,5 +22,19 @@
       <guid>https://tux.zone/dragons/dragon1/</guid>
       <description>test</description>
     </item>
+    <item>
+      <title>How To 1</title>
+      <link>https://tux.zone/howtos/howto1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tux.zone/howtos/howto1/</guid>
+      <description>Howto page 1.</description>
+    </item>
+    <item>
+      <title>How To 2</title>
+      <link>https://tux.zone/howtos/howto2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tux.zone/howtos/howto2/</guid>
+      <description>How to page 2.</description>
+    </item>
   </channel>
 </rss>
