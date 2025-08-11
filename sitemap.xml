@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tux.zone/howtos/</loc>
-    <lastmod>2025-08-10T15:17:46+02:00</lastmod>
+    <loc>https://tux.zone/tags/ai/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tux.zone/tags/education/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tux.zone/tags/future/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tux.zone/tags/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tux.zone/tags/technology/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tux.zone/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tux.zone/dragons/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tux.zone/dragons/tuxzone_ai_education_post/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tux.zone/howtos/</loc>
     <lastmod>2025-08-10T15:17:46+02:00</lastmod>
   </url><url>
     <loc>https://tux.zone/projects/</loc>
@@ -28,9 +49,5 @@
     <loc>https://tux.zone/search/</loc>
   </url><url>
     <loc>https://tux.zone/series/</loc>
-  </url><url>
-    <loc>https://tux.zone/tags/</loc>
-  </url><url>
-    <loc>https://tux.zone/dragons/</loc>
   </url>
 </urlset>
