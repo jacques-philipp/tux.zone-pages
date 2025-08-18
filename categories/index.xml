@@ -6,6 +6,14 @@
     <description>Recent content in Categories on Tux.Zone</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tux.zone/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://tux.zone/categories/blog/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://tux.zone/categories/blog/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

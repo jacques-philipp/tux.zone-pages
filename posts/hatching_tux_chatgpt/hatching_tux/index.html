@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>How I Used ChatGPT to Hatch a Flock of Tux Penguins | Tux.Zone</title>
+<meta name="keywords" content="linux, tux, chatgpt, ai art, fun">
+<meta name="description" content="Introduction
+Some people collect stamps. Others collect coins. Me? I collect penguins. Not the kind you’d find waddling around Antarctica (though I wouldn’t complain about that) but the iconic, slightly chubby mascot of Linux: Tux.
+And instead of raiding a zoo, I decided to hatch an entire flock of Tuxes using ChatGPT and some prompt magic. What followed was part art experiment, part comedy show, and part open-source fever dream.">
+<meta name="author" content="">
+<link rel="canonical" href="https://tux.zone/posts/hatching_tux_chatgpt/hatching_tux/">
+<link crossorigin="anonymous" href="https://tux.zone/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tux.zone/images/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tux.zone/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tux.zone/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tux.zone/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tux.zone/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://tux.zone/posts/hatching_tux_chatgpt/hatching_tux/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://tux.zone/posts/hatching_tux_chatgpt/hatching_tux/">
+  <meta property="og:site_name" content="Tux.Zone">
+  <meta property="og:title" content="How I Used ChatGPT to Hatch a Flock of Tux Penguins">
+  <meta property="og:description" content="Introduction Some people collect stamps. Others collect coins. Me? I collect penguins. Not the kind you’d find waddling around Antarctica (though I wouldn’t complain about that) but the iconic, slightly chubby mascot of Linux: Tux.
+And instead of raiding a zoo, I decided to hatch an entire flock of Tuxes using ChatGPT and some prompt magic. What followed was part art experiment, part comedy show, and part open-source fever dream.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-08-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-18T00:00:00+00:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Tux">
+    <meta property="article:tag" content="Chatgpt">
+    <meta property="article:tag" content="Ai Art">
+    <meta property="article:tag" content="Fun">
+    <meta property="og:image" content="https://tux.zone/images/HatchingTux.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://tux.zone/images/HatchingTux.png">
+<meta name="twitter:title" content="How I Used ChatGPT to Hatch a Flock of Tux Penguins">
+<meta name="twitter:description" content="Introduction
+Some people collect stamps. Others collect coins. Me? I collect penguins. Not the kind you’d find waddling around Antarctica (though I wouldn’t complain about that) but the iconic, slightly chubby mascot of Linux: Tux.
+And instead of raiding a zoo, I decided to hatch an entire flock of Tuxes using ChatGPT and some prompt magic. What followed was part art experiment, part comedy show, and part open-source fever dream.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://tux.zone/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How I Used ChatGPT to Hatch a Flock of Tux Penguins",
+      "item": "https://tux.zone/posts/hatching_tux_chatgpt/hatching_tux/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How I Used ChatGPT to Hatch a Flock of Tux Penguins",
+  "name": "How I Used ChatGPT to Hatch a Flock of Tux Penguins",
+  "description": "Introduction Some people collect stamps. Others collect coins. Me? I collect penguins. Not the kind you’d find waddling around Antarctica (though I wouldn’t complain about that) but the iconic, slightly chubby mascot of Linux: Tux.\nAnd instead of raiding a zoo, I decided to hatch an entire flock of Tuxes using ChatGPT and some prompt magic. What followed was part art experiment, part comedy show, and part open-source fever dream.\n",
+  "keywords": [
+    "linux", "tux", "chatgpt", "ai art", "fun"
+  ],
+  "articleBody": "Introduction Some people collect stamps. Others collect coins. Me? I collect penguins. Not the kind you’d find waddling around Antarctica (though I wouldn’t complain about that) but the iconic, slightly chubby mascot of Linux: Tux.\nAnd instead of raiding a zoo, I decided to hatch an entire flock of Tuxes using ChatGPT and some prompt magic. What followed was part art experiment, part comedy show, and part open-source fever dream.\nA Little Background on Tux For the uninitiated: Tux is the official mascot of Linux. He’s round, cheerful, and slightly smug, like he just solved your kernel panic while you were still googling what “initramfs” means.\nThe story goes that Linus Torvalds (the creator of Linux) liked penguins, someone suggested one as a mascot, and an artist named Larry Ewing drew Tux in 1996 using GIMP. Since then, Tux has become a cultural icon. He shows up on stickers, T-shirts, conference slides, and occasionally in questionable tattoos.\nHe represents freedom, open source, and the unshakable belief that software should be free… also he looks like the kind of bird who knows his way around a packet sniffer.\nUsing ChatGPT to Prompt Penguins Here’s the trick. ChatGPT can generate prompts that image tools understand. Think of me as the zookeeper and ChatGPT as the penguin whisperer. I type in what kind of Tux I want — smug, sad, screaming into the void — and out waddles a freshly hatched AI penguin.\nIt’s like Pokémon but with fewer lawsuits.\nThe Prompt + Image Showcase 1. Cool Tux Logo Prompt:\nCreate a clean, visually striking 3D-style logo featuring a stylized or semi-realistic penguin character (Tux-style) for the brand “Tux.Zone”.\nDesign requirements: – The penguin should be rendered in a semi-realistic or stylized 3D look. – The logo must have a transparent background (no environment, no shadows, no props outside the subject). – The penguin should convey a clear emotional expression through pose, facial features, or subtle accessories (e.g., a small prop like sunglasses or a scarf, only if necessary). Integrate the brand name “Tux.Zone” in a clean, modern orange font. The text should be readable and harmoniously incorporated into the design, either beneath or beside the penguin.\nPrioritise a clean, professional look suitable for web use, branding, and scalability.\nResult:\n2. Warning Tux Prompt:\nA 3D-rendered penguin character delivering a clear warning gesture. The penguin should have a serious, focused expression — one eye narrowed, beak slightly open as if saying ‘hey!’ or ‘watch out!’ One flipper is raised, index feather extended in a cautionary or scolding pose. Optional props: a floating yellow warning triangle above its head or next to it, or exclamation mark to reinforce the alert. Posture should be upright and assertive, with chest slightly puffed and stance solid. Keep the 3D look consistent with the other avatars — semi-realistic, plush-feather texture, soft frontal lighting, and transparent background for sticker-style use.\nResult:\n3. Project Tux Prompt:\nA 3D-rendered penguin character proudly presenting a project. The penguin should have a confident, satisfied smile, eyes bright with accomplishment. One flipper is holding or pointing to a floating clipboard, blueprint, or holographic display showing charts, diagrams, or a plan. The other flipper could be on its hip or gesturing towards the ‘project’ with pride. Optional subtle props: a pencil tucked behind one ear or rolled-up blueprint under an arm. Chest slightly puffed out to show confidence. Keep the style consistent with the Tux.Zone avatar series — semi-realistic plush-feather texture, soft even lighting, and transparent background for sticker-style use.\nResult:\n4. The Thinker Tux Prompt:\nA 3D-rendered penguin character in a classic thinking pose. The penguin should have one flipper resting thoughtfully under its beak, head tilted slightly to one side, and eyes looking upward as if deep in thought. Eyebrows should be furrowed or raised to show concentration. Optional props: a small floating question mark above the head or a thought bubble with abstract shapes. The body posture should be relaxed but engaged — one leg could be crossed over the other or flipper tucked behind its back for added character. Keep the style consistent with the Tux.Zone avatar series — semi-realistic plush-feather texture, soft even lighting, and transparent background for sticker-style use.\nResult:\n5. Cozy Blogger Tux Prompt:\nA 3D-rendered penguin character in a cheerful blogging pose. The penguin is seated at a small, modern desk with a laptop open, typing enthusiastically with one flipper while the other flipper holds a coffee mug. Its eyes are focused, beak curved into a slight smile, showing enjoyment and creativity. Optional props: a small stack of books, a notepad with doodles, or a tiny microphone to suggest podcasting as well. A faint holographic overlay of text, icons, or a blog interface can float above the laptop screen. Keep the style consistent with the Tux.Zone avatar series — semi-realistic plush-feather texture, soft even lighting, and transparent background for sticker-style use.\nResult:\nFinal Thoughts What did I learn? That ChatGPT is basically an egg-laying machine for penguins, and I am now a proud penguin farmer.\nIf you want to try this yourself, here are my tips:\nBe oddly specific in your prompts. Penguins don’t respond well to vagueness. Add humor. The weirder the description, the better the penguin. Always request transparent backgrounds. You’ll thank me when you’re slapping Tux on stickers, slides, and coffee mugs. Linux people already know this, but penguins are more than mascots. They’re spirit animals for surviving the absurdity of tech life. And thanks to ChatGPT, my flock keeps growing.\nSo here’s to Tux: long may he waddle.\n",
+  "wordCount" : "925",
+  "inLanguage": "en",
+  "image":"https://tux.zone/images/HatchingTux.png","datePublished": "2025-08-18T00:00:00Z",
+  "dateModified": "2025-08-18T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tux.zone/posts/hatching_tux_chatgpt/hatching_tux/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tux.Zone",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tux.zone/images/favicon.png"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://tux.zone/" accesskey="h" title="Tux.Zone (Alt + H)">Tux.Zone</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://tux.zone/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tux.zone/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tux.zone/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://tux.zone/">Home</a>&nbsp;»&nbsp;<a href="https://tux.zone/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      How I Used ChatGPT to Hatch a Flock of Tux Penguins
+    </h1>
+    <div class="post-meta"><span title='2025-08-18 00:00:00 +0000 UTC'>August 18, 2025</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://tux.zone/images/HatchingTux.png" alt="HatchingTux">
+        
+</figure>
+  <div class="post-content"><h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>Some people collect stamps. Others collect coins. Me? I collect penguins. Not the kind you’d find waddling around Antarctica (though I wouldn’t complain about that) but the iconic, slightly chubby mascot of Linux: Tux.<br>
+And instead of raiding a zoo, I decided to hatch an entire flock of Tuxes using ChatGPT and some prompt magic. What followed was part art experiment, part comedy show, and part open-source fever dream.</p>
+<hr>
+<h2 id="a-little-background-on-tux">A Little Background on Tux<a hidden class="anchor" aria-hidden="true" href="#a-little-background-on-tux">#</a></h2>
+<p>For the uninitiated: Tux is the official mascot of Linux. He’s round, cheerful, and slightly smug, like he just solved your kernel panic while you were still googling what “initramfs” means.</p>
+<p>The story goes that Linus Torvalds (the creator of Linux) liked penguins, someone suggested one as a mascot, and an artist named Larry Ewing drew Tux in 1996 using GIMP. Since then, Tux has become a cultural icon. He shows up on stickers, T-shirts, conference slides, and occasionally in questionable tattoos.</p>
+<p>He represents freedom, open source, and the unshakable belief that software should be free… also he looks like the kind of bird who knows his way around a packet sniffer.</p>
+<hr>
+<h2 id="using-chatgpt-to-prompt-penguins">Using ChatGPT to Prompt Penguins<a hidden class="anchor" aria-hidden="true" href="#using-chatgpt-to-prompt-penguins">#</a></h2>
+<p>Here’s the trick. ChatGPT can generate prompts that image tools understand. Think of me as the zookeeper and ChatGPT as the penguin whisperer. I type in what kind of Tux I want — smug, sad, screaming into the void — and out waddles a freshly hatched AI penguin.</p>
+<p>It’s like Pokémon but with fewer lawsuits.</p>
+<hr>
+<h2 id="the-prompt--image-showcase">The Prompt + Image Showcase<a hidden class="anchor" aria-hidden="true" href="#the-prompt--image-showcase">#</a></h2>
+<h3 id="1-cool-tux-logo">1. Cool Tux Logo<a hidden class="anchor" aria-hidden="true" href="#1-cool-tux-logo">#</a></h3>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>Create a clean, visually striking 3D-style logo featuring a stylized or semi-realistic penguin character (Tux-style) for the brand &ldquo;Tux.Zone&rdquo;.</p>
+<p>Design requirements:
+– The penguin should be rendered in a semi-realistic or stylized 3D look.
+– The logo must have a transparent background (no environment, no shadows, no props outside the subject).
+– The penguin should convey a clear emotional expression through pose, facial features, or subtle accessories (e.g., a small prop like sunglasses or a scarf, only if necessary).
+Integrate the brand name “Tux.Zone” in a clean, modern orange font. The text should be readable and harmoniously incorporated into the design, either beneath or beside the penguin.</p>
+<p>Prioritise a clean, professional look suitable for web use, branding, and scalability.</p></blockquote>
+<p><strong>Result:</strong><br>
+<img alt="logotux" loading="lazy" src="https://tux.zone/images/3D-logo.png"></p>
+<hr>
+<h3 id="2-warning-tux">2. Warning Tux<a hidden class="anchor" aria-hidden="true" href="#2-warning-tux">#</a></h3>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>A 3D-rendered penguin character delivering a clear warning gesture. The penguin should have a serious, focused expression — one eye narrowed, beak slightly open as if saying &lsquo;hey!&rsquo; or &lsquo;watch out!&rsquo; One flipper is raised, index feather extended in a cautionary or scolding pose. Optional props: a floating yellow warning triangle above its head or next to it, or exclamation mark to reinforce the alert. Posture should be upright and assertive, with chest slightly puffed and stance solid. Keep the 3D look consistent with the other avatars — semi-realistic, plush-feather texture, soft frontal lighting, and transparent background for sticker-style use.</p></blockquote>
+<p><strong>Result:</strong><br>
+<img alt="warningtux" loading="lazy" src="https://tux.zone/images/Warning.png"></p>
+<hr>
+<h3 id="3-project-tux">3. Project Tux<a hidden class="anchor" aria-hidden="true" href="#3-project-tux">#</a></h3>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>A 3D-rendered penguin character proudly presenting a project. The penguin should have a confident, satisfied smile, eyes bright with accomplishment. One flipper is holding or pointing to a floating clipboard, blueprint, or holographic display showing charts, diagrams, or a plan. The other flipper could be on its hip or gesturing towards the &lsquo;project&rsquo; with pride. Optional subtle props: a pencil tucked behind one ear or rolled-up blueprint under an arm. Chest slightly puffed out to show confidence. Keep the style consistent with the Tux.Zone avatar series — semi-realistic plush-feather texture, soft even lighting, and transparent background for sticker-style use.</p></blockquote>
+<p><strong>Result:</strong><br>
+<img alt="projecttux" loading="lazy" src="https://tux.zone/images/Project.png"></p>
+<hr>
+<h3 id="4-the-thinker-tux">4. The Thinker Tux<a hidden class="anchor" aria-hidden="true" href="#4-the-thinker-tux">#</a></h3>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>A 3D-rendered penguin character in a classic thinking pose. The penguin should have one flipper resting thoughtfully under its beak, head tilted slightly to one side, and eyes looking upward as if deep in thought. Eyebrows should be furrowed or raised to show concentration. Optional props: a small floating question mark above the head or a thought bubble with abstract shapes. The body posture should be relaxed but engaged — one leg could be crossed over the other or flipper tucked behind its back for added character. Keep the style consistent with the Tux.Zone avatar series — semi-realistic plush-feather texture, soft even lighting, and transparent background for sticker-style use.</p></blockquote>
+<h2 id="thinkertux"><strong>Result:</strong><br>
+<img alt="Thinkertux" loading="lazy" src="https://tux.zone/images/Thinker.png"></h2>
+<h3 id="5-cozy-blogger-tux">5. Cozy Blogger Tux<a hidden class="anchor" aria-hidden="true" href="#5-cozy-blogger-tux">#</a></h3>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>A 3D-rendered penguin character in a cheerful blogging pose. The penguin is seated at a small, modern desk with a laptop open, typing enthusiastically with one flipper while the other flipper holds a coffee mug. Its eyes are focused, beak curved into a slight smile, showing enjoyment and creativity. Optional props: a small stack of books, a notepad with doodles, or a tiny microphone to suggest podcasting as well. A faint holographic overlay of text, icons, or a blog interface can float above the laptop screen. Keep the style consistent with the Tux.Zone avatar series — semi-realistic plush-feather texture, soft even lighting, and transparent background for sticker-style use.</p></blockquote>
+<h2 id="bloggertux"><strong>Result:</strong><br>
+<img alt="BloggerTux" loading="lazy" src="https://tux.zone/images/Blogger.png"></h2>
+<h2 id="final-thoughts">Final Thoughts<a hidden class="anchor" aria-hidden="true" href="#final-thoughts">#</a></h2>
+<p>What did I learn? That ChatGPT is basically an egg-laying machine for penguins, and I am now a proud penguin farmer.</p>
+<p>If you want to try this yourself, here are my tips:</p>
+<ul>
+<li>Be oddly specific in your prompts. Penguins don’t respond well to vagueness.</li>
+<li>Add humor. The weirder the description, the better the penguin.</li>
+<li>Always request transparent backgrounds. You’ll thank me when you’re slapping Tux on stickers, slides, and coffee mugs.</li>
+</ul>
+<p>Linux people already know this, but penguins are more than mascots. They’re spirit animals for surviving the absurdity of tech life. And thanks to ChatGPT, my flock keeps growing.</p>
+<p>So here’s to Tux: long may he waddle.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://tux.zone/tags/linux/">Linux</a></li>
+      <li><a href="https://tux.zone/tags/tux/">Tux</a></li>
+      <li><a href="https://tux.zone/tags/chatgpt/">Chatgpt</a></li>
+      <li><a href="https://tux.zone/tags/ai-art/">Ai Art</a></li>
+      <li><a href="https://tux.zone/tags/fun/">Fun</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://tux.zone/">Tux.Zone</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

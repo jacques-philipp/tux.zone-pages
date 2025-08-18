@@ -6,8 +6,17 @@
     <description>Recent content on Tux.Zone</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tux.zone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Used ChatGPT to Hatch a Flock of Tux Penguins</title>
+      <link>https://tux.zone/posts/hatching_tux_chatgpt/hatching_tux/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://tux.zone/posts/hatching_tux_chatgpt/hatching_tux/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Some people collect stamps. Others collect coins. Me? I collect penguins. Not the kind you’d find waddling around Antarctica (though I wouldn’t complain about that) but the iconic, slightly chubby mascot of Linux: Tux.&lt;br&gt;
+And instead of raiding a zoo, I decided to hatch an entire flock of Tuxes using ChatGPT and some prompt magic. What followed was part art experiment, part comedy show, and part open-source fever dream.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Your Kid’s Homework Isn’t the Hill to Die On</title>
       <link>https://tux.zone/dragons/ai_education_post/tuxzone_ai_education_post/</link>
